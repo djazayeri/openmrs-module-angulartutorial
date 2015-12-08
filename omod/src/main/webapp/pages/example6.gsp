@@ -11,7 +11,7 @@
 <div ng-app="myapp" ng-controller="ExampleController">
 
     <fieldset>
-        <legend>Example 5</legend>
+        <legend>Example 6</legend>
         Using ngResource to access REST.
     </fieldset>
     <br/>

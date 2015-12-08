@@ -1,0 +1,23 @@
+<p>
+    Name:
+    {{patient.person.preferredName | omrs.display}}
+</p>
+
+<p>
+    Born:
+    {{patient.person.birthdate | date}}
+    {{patient.person.birthdateEstimated ? "(approximate)" : "" }}
+</p>
+
+<p>
+    Gender:
+    {{patient.person.gender}}
+</p>
+
+<p>
+    <ul>
+        <li ng-repeat="identifier in patient.identifiers">
+            {{identifier | omrs.display }}
+        </li>
+    </ul>
+</p>
