@@ -14,6 +14,6 @@ import org.openmrs.module.BaseModuleActivator;
 /**
  * This class contains the logic that is run every time this module is either started or stopped.
  */
-public class AngularTutorialActivator extends BaseModuleActivator {
+public class AngularTutorialActivatorHackChangeCase extends BaseModuleActivator {
 
 }
